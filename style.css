@@ -64,6 +64,10 @@ body {
 	color: #232323;
 	line-height: 0.75;
 	border-radius: 36px;
+	transition: transform 0.3s ease-out;
+}
+.text-section__button:hover {
+	transform: scale(0.9);
 }
 
 .gallery-section {
